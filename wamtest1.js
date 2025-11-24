@@ -1,4 +1,4 @@
-function moleGenerator() {
+/*function moleGenerator() {
     setInterval(() => {
         const i = Math.random();
     if (i < 1/9) {

@@ -1,13 +1,40 @@
-img .mole{
-    max-height: 50px;
-    max-width: 50px;
-    padding: 15px;
-    size: 100%;
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img.mole {
+    width: clamp(20px, 8vw, 60px);
+    height: auto;
+    max-width: 100%;
+    max-height: 18vh;
+    display: block;
 }
 .row1, .row2, .row3 {
-    display: flex;
+        display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(0.25rem, 6vw, 2.5rem); 
+    padding: 1vh 2vw;
+    box-sizing: border-box;
 }
 .mole1, .mole2, .mole3, .mole4, .mole5, .mole6, .mole7, .mole8, .mole9 {
-    padding: 5px;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 480px) {
+    img.mole {
+        width: clamp(16px, 10vw, 40px);
+        max-height: 16vh;
+    }
+    .row1, .row2, .row3 {
+        gap: 0.5rem;
+    }
+    .gameboard {
+        width: 98vmin;
+    }
+    
 }
