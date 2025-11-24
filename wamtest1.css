@@ -1,0 +1,13 @@
+img .mole{
+    max-height: 50px;
+    max-width: 50px;
+    padding: 15px;
+    size: 100%;
+}
+.row1, .row2, .row3 {
+    display: flex;
+    justify-content: center;
+}
+.mole1, .mole2, .mole3, .mole4, .mole5, .mole6, .mole7, .mole8, .mole9 {
+    padding: 5px;
+}

@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-image: url("../frontend/pics/startwagscreen.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+button {
+    font-family: "Comic Sans MS";
+    background-color: rgb(247, 82, 104);
+    border-radius: 15px;
+    color: white;
+    border-color: white;
+    font-size: 20px;
+}
+button:hover {
+    background-color: rgb(255, 121, 137);
+    cursor: pointer;
+}
+input {
+    font-family: "Comic Sans MS";
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS";
+}
+#playerinfo {
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS";
+}
